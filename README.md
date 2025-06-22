@@ -36,11 +36,14 @@ emart-app/
 
 ```bash
 git clone https://github.com/ashutoshojha18/emartapp-docker.git
-```bash
 cd emart-app
+``` 
+### 🐳 Step 2: Build the Images
 ```bash
 docker-compose build
+``` 
+### 🐳 Step 3: Start the containers
 ```bash
 docker-compose up -d
-
-Now check on port 80
+``` 
+Now check the services and run http://localhost:80
