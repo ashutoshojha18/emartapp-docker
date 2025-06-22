@@ -36,9 +36,11 @@ emart-app/
 
 ```bash
 git clone https://github.com/ashutoshojha18/emartapp-docker.git
+```bash
 cd emart-app
+```bash
 docker-compose build
+```bash
 docker-compose up -d
-bash ``` 
 
-# Now check on port 80
+Now check on port 80
